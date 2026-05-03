@@ -1,5 +1,6 @@
 import { FaInstagram, FaYoutube, FaFacebookF, FaEnvelope } from "react-icons/fa";
 import "../Styles/Footer.css";
+import pic from "../assets/quotes/laptop-apple-macbook-computer.jpg";
 
 export default function Footer() {
     return (
@@ -7,7 +8,7 @@ export default function Footer() {
             <div className="footer__container">
                 {/* Brand */}
                 <div className="footer__brand">
-                    <img src="systems_project/src/assets/quotes/laptop-apple-macbook-computer.jpg" alt="" />
+                    <img src={pic} alt="" />
                 </div>
                 {/* Links */}
                 <div className="footer__col">
