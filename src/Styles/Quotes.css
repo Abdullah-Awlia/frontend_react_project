@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -73,12 +75,13 @@ li {
 }
 
 .quote {
-    height: 60vh;
-    width: 43vw;
+    border-radius: 10px;
+    height: 40vh;
+    width: 55vw;
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     margin: 10vh 0vw 5vh 0vw;
     z-index: 99;
 }
@@ -86,12 +89,13 @@ li {
 .two-quotes {
     position: relative;
     height: 100%;
-    width: 100vw;
+    width: 80vw;
+    border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 3vh 3vw;
     align-items: center;
     justify-content: center;
+    background-color: #0000005a;
 }
 
 .two-quotes::before,
@@ -120,29 +124,19 @@ li {
 }
 
 .quote-line {
-    font-size: 2.5rem;
+    height: 30vh;
+    width: 40vw;
+    font-size: 2rem;
     color: whitesmoke;
-    font-weight: bold;
-    line-height: 12vh;
+    font-weight: 500;
+    line-height: 10vh;
     padding: 2vh 2vw;
+    font-family: "Playfair Display";
 }
 
 .quote-line span {
-    font-size: 4rem;
-    font-family: 'Maitree';
+    margin-right: 3vw;
+    font-size: 3rem;
+    font-family: "Playfair Display";
     font-weight: bold;
-}
-
-.author {
-    position: absolute;
-    font-family: 'Maitree';
-    margin-top: 5vh;
-    margin-bottom: 1vh;
-    padding: 0vh 2vw;
-    font-weight: 700;
-    font-size: 1.35rem;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    transition: 0.1s ease;
 }
