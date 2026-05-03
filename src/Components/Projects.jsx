@@ -1,6 +1,15 @@
 import React from "react";
 import "../Styles/Projects.css";
 import { FaArrowRight } from "react-icons/fa";
+import { netflix_full } from "../assets/netflix.webp";
+import { netflix } from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Netflix-index-html-2025-08-14-20_18_41.webp";
+import { spotify_full } from "../assets/spotify.png";
+import { spotify } from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Spotify-index-html-2025-08-14-20_19_29.webp";
+import { blog_full } from "../assets/techsters.webp";
+import { blog } from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-techsters-com-index-html-2025-08-14-20_20_11.webp";
+import { netflix_page } from "../projects/Netflix/index.html";
+import { spotify_page } from "../projects/Spotify/index.html";
+import { techters_page } from "../projects/techsters.com/index.html";
 
 const Projects = () => {
     return (
@@ -9,12 +18,12 @@ const Projects = () => {
                 <h1 className="project-heading">Some of Frontend Projects that I’ve Built</h1>
                 <div className="project netflix">
                     <div className="project-image">
-                        <img src="systems_project\src\assets\netflix.webp" alt="" />
+                        <img src={netflix_full} alt="" />
                     </div>
-                    <img src="systems_project\src\assets\screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Netflix-index-html-2025-08-14-20_18_41.webp" alt="" className="thumb" />
+                    <img src={netflix} alt="" className="thumb" />
                     <div className="text">
                         <h2 className="netflix-heading">Netflix.</h2>
-                        <a href="systems_project\src\projects\Netflix\index.html">
+                        <a href={netflix_page}>
                             <button className="netflix-btn">Visit full screen  <span style={{ fontSize: "1rem", color: "white" }}>
                                 <FaArrowRight />
                             </span></button>
@@ -23,12 +32,12 @@ const Projects = () => {
                 </div>
                 <div className="project spotify">
                     <div className="project-image">
-                        <img src="systems_project\src\assets\spotify.png" alt="" />
+                        <img src={spotify_full} alt="" />
                     </div>
-                    <img src="systems_project\src\assets\screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Spotify-index-html-2025-08-14-20_19_29.webp" alt="" className="thumb spotify-thumb" />
+                    <img src={spotify} alt="" className="thumb spotify-thumb" />
                     <div className="text">
                         <h2 className="spotify-heading">Spotify.</h2>
-                        <a href="systems_project\src\projects\Spotify\index.html">
+                        <a href={spotify_page}>
                             <button className="spotify-btn">Visit full screen <span style={{ fontSize: "1rem", color: "black" }}>
                                 <FaArrowRight />
                             </span></button>
@@ -37,13 +46,13 @@ const Projects = () => {
                 </div>
                 <div className="project project-last techsters">
                     <div className="project-image">
-                        <img src="systems_project\src\assets\techsters.webp" alt="" />
+                        <img src={blog_full} alt="" />
                     </div>
-                    <img src="systems_project\src\assets\screencapture-file-D-Laptop-Desktop-My-websites-techsters-com-index-html-2025-08-14-20_20_11.webp" alt="" className="thumb blog-thumb" />
+                    <img src={blog} alt="" className="thumb blog-thumb" />
 
                     <div className="text">
                         <h2 className="blog-heading">Blog Site.</h2>
-                        <a href="systems_project\src\projects\techsters.com\index.html">
+                        <a href={techters_page}>
                             <button className="blog-btn">Visit full screen <span style={{ fontSize: "1rem", color: "white" }}>
                                 <FaArrowRight />
                             </span></button>

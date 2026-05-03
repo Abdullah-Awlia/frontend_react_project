@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Styles/Hero.css'
-
+import '../Styles/Hero.css';
+import doll from "../assets/doll.webp"
 
 const Hero = () => {
     return (
@@ -25,7 +25,7 @@ const Hero = () => {
                                 <button className='skill-btn'>Backend Developer</button>
                             </div>
                         </div>
-                        <div className="doll"><img src="systems_project\src\assets\doll.webp" alt="" /><div className="table"></div></div>
+                        <div className="doll"><img src={doll} alt="" /><div className="table"></div></div>
 
 
                     </div>
