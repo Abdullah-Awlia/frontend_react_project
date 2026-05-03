@@ -1,15 +1,13 @@
 import React from "react";
 import "../Styles/Projects.css";
 import { FaArrowRight } from "react-icons/fa";
-import { netflix_full } from "../assets/netflix.webp";
-import { netflix } from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Netflix-index-html-2025-08-14-20_18_41.webp";
-import { spotify_full } from "../assets/spotify.png";
-import { spotify } from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Spotify-index-html-2025-08-14-20_19_29.webp";
-import { blog_full } from "../assets/techsters.webp";
-import { blog } from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-techsters-com-index-html-2025-08-14-20_20_11.webp";
-import { netflix_page } from "../projects/Netflix/index.html";
-import { spotify_page } from "../projects/Spotify/index.html";
-import { techters_page } from "../projects/techsters.com/index.html";
+import netflix_full from "../assets/netflix.webp";
+import netflix from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Netflix-index-html-2025-08-14-20_18_41.webp";
+import spotify_full from "../assets/spotify.png";
+import spotify from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-website-front-end-projects-Spotify-index-html-2025-08-14-20_19_29.webp";
+import blog_full from "../assets/techsters.webp";
+import blog from "../assets/screencapture-file-D-Laptop-Desktop-My-websites-techsters-com-index-html-2025-08-14-20_20_11.webp";
+
 
 const Projects = () => {
     return (
@@ -23,7 +21,7 @@ const Projects = () => {
                     <img src={netflix} alt="" className="thumb" />
                     <div className="text">
                         <h2 className="netflix-heading">Netflix.</h2>
-                        <a href={netflix_page}>
+                        <a href="../src/projects/Netflix/index.html">
                             <button className="netflix-btn">Visit full screen  <span style={{ fontSize: "1rem", color: "white" }}>
                                 <FaArrowRight />
                             </span></button>
@@ -37,7 +35,7 @@ const Projects = () => {
                     <img src={spotify} alt="" className="thumb spotify-thumb" />
                     <div className="text">
                         <h2 className="spotify-heading">Spotify.</h2>
-                        <a href={spotify_page}>
+                        <a href="../src/projects/Spotify/index.html">
                             <button className="spotify-btn">Visit full screen <span style={{ fontSize: "1rem", color: "black" }}>
                                 <FaArrowRight />
                             </span></button>
@@ -52,7 +50,7 @@ const Projects = () => {
 
                     <div className="text">
                         <h2 className="blog-heading">Blog Site.</h2>
-                        <a href={techters_page}>
+                        <a href="../src/projects/techsters.com/index.html">
                             <button className="blog-btn">Visit full screen <span style={{ fontSize: "1rem", color: "white" }}>
                                 <FaArrowRight />
                             </span></button>

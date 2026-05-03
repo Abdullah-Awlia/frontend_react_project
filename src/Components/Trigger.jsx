@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/Trigger.css";
-import { footer_doll } from "../assets/doll.webp";
-import { footer_cartoon } from "../assets/675005dc03927e9683fcaaee_Footer-p-800.webp";
+import footer_doll from "../assets/doll.webp";
+import footer_cartoon from "../assets/675005dc03927e9683fcaaee_Footer-p-800.webp";
 
 const Trigger = () => {
     return (
