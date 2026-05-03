@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.just-con-ctr {
+    justify-content: center;
+}
+
+.just-con-sb {
+    justify-content: space-between;
+}
+
+.itm-ctr {
+    align-items: center;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.bg-b {
+    background-color: black;
+}
+
+.bg-w {
+    background-color: white;
+}

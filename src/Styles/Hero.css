@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+.hero-content::after {
+    content: '';
+    position: absolute;
+    bottom: -20vh;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: black;
+    background-position: bottom;
+    filter: blur(40px);
+    z-index: -1;
+}
+
+.hero-content::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    filter: blur(50px);
+    z-index: -1;
+    background: #06425e;
+    top: -25%;
+    left: -10%;
+}
+
+.hero-content {
+    border-radius: 5px;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.616);
+    width: 100%;
+    height: 100%;
+    padding: 18vh 10vw 5vh 10vw;
+
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    font-size: 4rem;
+    margin-left: 2vw;
+}
+
+.skills-btn {
+    width: 50vw;
+}
+
+.paragraph-btn-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-heading {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-btn {
+    padding: 1.5vh 1.5vw;
+    margin: 1vh 1vw 0vh 0vw;
+    font-size: 0.85rem;
+    color: black;
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.skill-btn:hover {
+    background-color: rgb(24, 101, 178);
+}
+
+.hero-about {
+    width: 50vw;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 3vh;
+    line-height: 1.25;
+
+}
+
+.hero-btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    color: black;
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: rgb(0, 128, 255);
+}
+
+.hero-about {
+    align-self: flex-start;
+}
+
+
+.doll img {
+    padding-top: 10vh;
+    height: 70vh;
+    width: auto;
+    z-index: 99;
+    position: relative;
+}
+
+.doll {
+    position: relative;
+}
+
+.table {
+    border-radius: 10px;
+    background: rgba(135, 135, 135, 0.509);
+    opacity: 0.5;
+    overflow-x: hidden;
+    position: relative;
+    box-shadow: 0px 10px 20px rgba(135, 135, 135, 0.509);
+    height: 3vh;
+    width: 25vw;
+    position: absolute;
+    bottom: 20vh;
+    border: 1px solid black;
+}

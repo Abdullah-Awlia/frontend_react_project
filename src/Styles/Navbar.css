@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2vh 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    opacity: 1;
+    /* transparent */
+    backdrop-filter: blur(5px);
+    /* glass effect */
+    z-index: 999;
+    /* always on top */
+    overflow-x: hidden;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Maitree';
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 1vh 1vw;
+}
+
+.nav-links a:hover {
+    color: dodgerblue;
+}
+
+.nav-btn {
+    padding: 1.5vh 1.5vw;
+    font-size: 0.9rem;
+    color: black;
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    background: rgb(10, 85, 160);
+}

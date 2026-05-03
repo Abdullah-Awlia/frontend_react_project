@@ -1,0 +1,20 @@
+import React from 'react'
+import "../Styles/Trigger.css"
+
+const Trigger = () => {
+    return (
+        <div>
+            <div className="main-trigger">
+                <div className="trigger-bg"><div className="trigger-bg2"><img src="systems_project\src\assets\doll.webp" alt="" /></div><img src="systems_project\src\assets\675005dc03927e9683fcaaee_Footer-p-800.webp" alt="" /></div>
+
+                <div className="trigger">
+                    <h1 className="trigger-heading">So what do you think</h1>
+                    <p className="trigger-paragraph">I am a frontend developer, want to master backend also. Passionate learner. Looking forward to master AI, Data and CyberSecurity. Going to crack the world's best companies.</p>
+                    <a href=".hero" className="trigger-btn">Let's Create Something</a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Trigger

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- image favicon https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Web Player: Music for everyone</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utility.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Maitree:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="shortcut icon" href="https://open.spotify.com/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="fixedTop">
+                <!-- <img class="logo" height="32" width="32" src="logo.svg" alt=""> -->
+                <i class="fa-brands fa-spotify"><span>Spotify</span></i>
+                <div class="searchBar-home">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="searchBar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input placeholder="What do you want to play?" class="bar"></input>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="logs">
+                    <a href="#">Sign Up</a><a href="#">Log In</a>
+                </div>
+            </div>
+            <div class="left-right flex">
+                <div class="left">
+                    <div class="l-head flex just-con-sb">
+                        <h5><i class="fa-solid fa-book library"></i>Your Library</h5>
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                    <div class="upper flex just-con-ctr">
+                        <div class="upper-1">
+                            <h6>Create your first playlist</h6>
+                            <p>It's easy we'll help you</p>
+                            <span>
+                                <a href="#">Create playlist</a>
+                            </span>
+                        </div>
+                        <div class="upper-2">
+                            <h6>Let's find some prodcasts to follow</h6>
+                            <p>We'll keep you updated on new episodes</p>
+                            <span>
+                                <a href="#">Browse prodcasts</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cookie flex">
+                        <div class="links">
+                            <a href="#">Legal</a>
+                            <a href="#">Safety & Privacy Center</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">About ads</a>
+                            <a href="#">Assibilities</a>
+                            <a href="#">Cookies</a>
+                        </div>
+                        <span><i class="fa-solid fa-globe"></i>English</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="gradiant"></div>
+                    <h4>Popular Artists<p>Show all</p>
+                    </h4>
+                    <div class="artists box flex just-con-ctr">
+                        <div id="hover" class="artist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="circle bg1"></div>
+                            <h6>Arijit Singh</h6>
+                            <p>Artist</p>
+                        </div>
+                        <div id="hover" class="artist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="circle bg2"></div>
+                            <h6>Atif Aslam</h6>
+                            <p>Artist</p>
+                        </div>
+                        <div id="hover" class="artist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="circle bg3"></div>
+                            <h6>Karan Aujila</h6>
+                            <p>Artist</p>
+                        </div>
+                        <div id="hover" class="artist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="circle bg4"></div>
+                            <h6>Anuv Jain</h6>
+                            <p>Artist</p>
+                        </div>
+                        <div id="hover" class="artist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="circle bg5"></div>
+                            <h6>Pritam</h6>
+                            <p>Artist</p>
+                        </div>
+                        <div id="hover" class="artist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="circle bg6"></div>
+                            <h6>Diljit Dosanjh</h6>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <h4>
+                        Popular albums & singles<p>Show all</p>
+                    </h4>
+                    <div class="playlists flex just-con-ctr">
+                        <div id="hover" class="playlist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="playlist pbg1"></div>
+                            <h6>Jo tum mere ho</h6>
+                            <p>Anuv Jain</p>
+                        </div>
+                        <div id="hover" class="playlist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="playlist pbg2"></div>
+                            <h6>GLORY</h6>
+                            <p>Yo Yo Honey Singh</p>
+                        </div>
+                        <div id="hover" class="playlist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="playlist pbg3"></div>
+                            <h6>Making Memories</h6>
+                            <p>Karan Aujila, Ikky</p>
+                        </div>
+                        <div id="hover" class="playlist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="playlist pbg4"></div>
+                            <h6>Jhol</h6>
+                            <p>Mannu, Annural Khalid</p>
+                        </div>
+                        <div id="hover" class="playlist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="playlist pbg5"></div>
+                            <h6>Still Rollin</h6>
+                            <p>Shubh</p>
+                        </div>
+                        <div id="hover" class="playlist-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="playlist pbg6"></div>
+                            <h6>Glory</h6>
+                            <p>Sidhu Moose Wala</p>
+                        </div>
+                    </div>
+                    <h4>
+                        Popular radio<p>Show all</p>
+                    </h4>
+                    <div class="radios flex just-con-ctr">
+                        <div id="hover" class="radio-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="radio rbg1"></div>
+                            <p>With Sachin-Jigar, Amit Tivedi, Mithoon and Arijit Singh</p>
+                        </div>
+                        <div id="hover" class="radio-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="radio rbg2"></div>
+                            <p>With Karan Aujila, Shubh, AP Dhillon and Diljit Dosanjh</p>
+                        </div>
+                        <div id="hover" class="radio-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="radio rbg3"></div>
+                            <p>With Abdul Hannan, Aditya Rikhari and Anuv Jain</p>
+                        </div>
+                        <div id="hover" class="radio-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="radio rbg4"></div>
+                            <p>With Joung Stunners, Talhah Younus and Jokhay</p>
+                        </div>
+                        <div id="hover" class="radio-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="radio rbg5"></div>
+                            <p>With Shubh, Diljit Dosanjh and Sidhu Moose Wala</p>
+                        </div>
+                        <div id="hover" class="radio-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="radio rbg6"></div>
+                            <p>With Noor, Nusrat Ali, Adiba Parween and Madhur</p>
+                        </div>
+                    </div>
+                    <h4>
+                        Featured charts<p>Show all</p>
+                    </h4>
+                    <div class="charts flex just-con-ctr">
+                        <div id="hover" class="chart-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="chart cbg1"></div>
+
+                            <p>Your weekly update of the most played tracks</p>
+                        </div>
+                        <div id="hover" class="chart-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="chart cbg2"></div>
+                            <p>Your weekly update of the most played tracks</p>
+                        </div>
+                        <div id="hover" class="chart-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="chart cbg3"></div>
+                            <p>Your daily update of the most played tracks</p>
+                        </div>
+                        <div id="hover" class="chart-i ">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="chart cbg4"></div>
+                            <p>Your daily update of the most played tracks</p>
+                        </div>
+                        <div id="hover" class="chart-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="chart cbg5"></div>
+                            <p>Your daily update of the most viral tracks</p>
+                        </div>
+                        <div id="hover" class="chart-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="chart cbg6"></div>
+                            <p>Your daily update of the most viral tracks</p>
+                        </div>
+                    </div>
+                    <h4>
+                        Playlist from our Editors<p>Show all</p>
+                    </h4>
+                    <div class="choices flex just-con-ctr">
+                        <div id="hover" class="choice-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="choice chbg1"></div>
+                            <p>Viral Trending and taking off.</p>
+                        </div>
+                        <div id="hover" class="choice-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="choice chbg2"></div>
+                            <p>Blissed out beats and head nodded grooves.</p>
+                        </div>
+                        <div id="hover" class="choice-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="choice chbg3"></div>
+                            <p>Warm familiar pop you know and love.</p>
+                        </div>
+                        <div id="hover" class="choice-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="choice chbg4"></div>
+                            <p>The beat of your drift.</p>
+                        </div>
+                        <div id="hover" class="choice-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="choice chbg5"></div>
+                            <p>Soft instumental Jazz for all your activities.</p>
+                        </div>
+                        <div id="hover" class="choice-i">
+                            <div class="play-i">
+                                <div id="hide" class="play hide"><i class="hide fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="choice chbg6"></div>
+                            <p>Future, Metro, Kendrick, Tyler and Carti.</p>
+                        </div>
+                    </div>
+                    <div class="footer flex just-con-sb">
+                        <div class="side flex">
+                            <div class="col1">
+                                <h3>Company</h3>
+                                <a href="">About</a>
+                                <a href="">Job</a>
+                                <a href="">For the records</a>
+
+                            </div>
+                            <div class="col2">
+                                <h3>Communities</h3>
+                                <a href="">For Artists</a>
+                                <a href="">Developers</a>
+                                <a href="">Advertising</a>
+                                <a href="">Inverstors</a>
+                                <a href="">Vendors</a>
+                            </div>
+                            <div class="col3">
+                                <h3>Useful Links</h3>
+                                <a href="">Support</a>
+                                <a href="">Mobile App</a>
+
+                            </div>
+                            <div class="col4">
+                                <h3>Spotify Plans</h3>
+                                <a href="">Premium Individual</a>
+                                <a href="">Premium Duo</a>
+                                <a href="">Premium Family</a>
+                                <a href="">Premium Student</a>
+                                <a href=""> Spotify Free</a>
+                            </div>
+                        </div>
+                        <div class="col5">
+                            <i class="fa-brands fa-square-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-youtube"></i>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="copy">
+                        <span>&copy; 2024 Spotify AB</span>
+                        <span>Developed by Abdullah Awlia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fixedBottom flex just-con-sb itm-ctr">
+            <div class="text">
+                <a href="#">Preview of Spotify</a>
+                <p>Sign up to get unlimited songs and prodcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <div class="btn"><a href="#">Sign up free</a></div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/9f9a04ea30.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>

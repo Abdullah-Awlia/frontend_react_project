@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.main-quotes {
+    padding-top: 22vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 30vh;
+}
+
+
+.quotes {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh 3vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vh;
+    padding: 15vh 2vw 5vh 2vw;
+}
+
+.divider-quotes {
+    max-width: 1100px;
+    margin: 0vh auto;
+    height: 1px;
+    z-index: 99;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+}
+
+.quotes::after {
+    content: "The Words That Keep Me Going";
+    display: flex;
+    font-family: "Maitree";
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 2rem;
+    position: absolute;
+    width: auto;
+    color: white;
+    border-radius: 20vw;
+    top: -2vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.quote {
+    height: 60vh;
+    width: 43vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10vh 0vw 5vh 0vw;
+    z-index: 99;
+}
+
+.two-quotes {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh 3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-quotes::before,
+.two-quotes::after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    filter: blur(50px);
+    z-index: -1;
+}
+
+/* First blob */
+.two-quotes::before {
+    background: #FF4D4D;
+    top: -50px;
+    left: -50px;
+}
+
+/* Second blob */
+.two-quotes::after {
+    background: #FFB84D;
+    bottom: -50px;
+    right: -50px;
+}
+
+.quote-line {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    font-weight: bold;
+    line-height: 12vh;
+    padding: 2vh 2vw;
+}
+
+.quote-line span {
+    font-size: 4rem;
+    font-family: 'Maitree';
+    font-weight: bold;
+}
+
+.author {
+    position: absolute;
+    font-family: 'Maitree';
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    padding: 0vh 2vw;
+    font-weight: 700;
+    font-size: 1.35rem;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: 0.1s ease;
+}

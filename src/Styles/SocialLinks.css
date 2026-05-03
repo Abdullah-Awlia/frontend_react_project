@@ -1,0 +1,40 @@
+.social-links {
+    display: flex;
+    gap: 25px;
+    padding: 0vh 0vw 3vh 0vw;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon.instagram,
+.icon.snapchat,
+.icon.facebook,
+.icon.twitter {
+    color: rgba(50, 49, 49, 0.8);
+}
+
+.icon.instagram:hover {
+    color: #e1306c;
+    /* Instagram pink */
+}
+
+.icon.snapchat:hover {
+    color: #fffc00;
+    /* Snapchat yellow */
+}
+
+.icon.facebook:hover {
+    color: #1877f2;
+}
+
+.icon.twitter:hover {
+    color: #1da1f2;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
