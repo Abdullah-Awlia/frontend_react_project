@@ -21,7 +21,7 @@ const Projects = () => {
                     <img src={netflix} alt="" className="thumb" />
                     <div className="text">
                         <h2 className="netflix-heading">Netflix.</h2>
-                        <a href="../src/projects/Netflix/index.html">
+                        <a href="../src/projects/Netflix/index.html" target="_blank">
                             <button className="netflix-btn">Visit full screen  <span style={{ fontSize: "1rem", color: "white" }}>
                                 <FaArrowRight />
                             </span></button>
