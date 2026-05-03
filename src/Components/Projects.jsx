@@ -21,7 +21,7 @@ const Projects = () => {
                     <img src={netflix} alt="" className="thumb" />
                     <div className="text">
                         <h2 className="netflix-heading">Netflix.</h2>
-                        <a href="" target="_blank">
+                        <a href="/projects/Netflix/index.html">
                             <button className="netflix-btn">Visit full screen  <span style={{ fontSize: "1rem", color: "white" }}>
                                 <FaArrowRight />
                             </span></button>
@@ -35,7 +35,7 @@ const Projects = () => {
                     <img src={spotify} alt="" className="thumb spotify-thumb" />
                     <div className="text">
                         <h2 className="spotify-heading">Spotify.</h2>
-                        <a href="../src/projects/Spotify/index.html">
+                        <a href="/projects/Spotify/index.html">
                             <button className="spotify-btn">Visit full screen <span style={{ fontSize: "1rem", color: "black" }}>
                                 <FaArrowRight />
                             </span></button>
@@ -50,7 +50,7 @@ const Projects = () => {
 
                     <div className="text">
                         <h2 className="blog-heading">Blog Site.</h2>
-                        <a href="../src/projects/techsters.com/index.html">
+                        <a href="/projects/techsters.com/index.html">
                             <button className="blog-btn">Visit full screen <span style={{ fontSize: "1rem", color: "white" }}>
                                 <FaArrowRight />
                             </span></button>
